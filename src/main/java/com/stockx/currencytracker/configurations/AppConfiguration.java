@@ -1,7 +1,6 @@
 package com.stockx.currencytracker.configurations;
 
 import com.stockx.currencytracker.adapters.CurrencyConverterAdapter;
-import com.stockx.currencytracker.services.CurrencyTrackerService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;

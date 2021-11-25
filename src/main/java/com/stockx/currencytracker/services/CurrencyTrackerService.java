@@ -20,6 +20,7 @@ public class CurrencyTrackerService {
     public CurrencyConversion convertCurrencies(String currency1, String currency2){
         String cur = currencyConverterAdapter.currencyConvert(currency1 + "_" + currency2);
         cur = cur.replace("{", "");
+        cur = cur.replace("{", "");
         cur = cur.replaceAll("}", "");
         cur = cur.replaceAll("\"", "");
         String[] parts = cur.split(":");
