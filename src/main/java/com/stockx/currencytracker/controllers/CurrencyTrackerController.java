@@ -12,13 +12,13 @@ public class CurrencyTrackerController {
     @Autowired
     private CurrencyTrackerService currencyTrackerService;
 
-    @CrossOrigin(origins = "https://www.stockx.software")
+    @CrossOrigin(origins = "*")
     @GetMapping("/currencies")
     public CurrencyConversion convertCurrencies(@RequestParam("c1")  String c1, @RequestParam("c2") String c2){
         return currencyTrackerService.convertCurrencies(c1,c2);
     }
 
-    @CrossOrigin(origins = "https://www.stockx.software")
+    @CrossOrigin(origins = "*")
     @GetMapping("/graph")
     public HistoricalCurrencyConversion graph(@RequestParam("c1")  String c1, @RequestParam("c2") String c2){
         return currencyTrackerService.convertHistorical(c1,c2);
