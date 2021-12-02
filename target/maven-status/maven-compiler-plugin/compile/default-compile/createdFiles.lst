@@ -1,0 +1,7 @@
+com/stockx/currencytracker/controllers/CurrencyTrackerController.class
+com/stockx/currencytracker/configurations/AppConfiguration.class
+com/stockx/currencytracker/CurrencyTrackerApplication.class
+com/stockx/currencytracker/HistoricalCurrencyConversion.class
+com/stockx/currencytracker/adapters/CurrencyConverterAdapter.class
+com/stockx/currencytracker/CurrencyConversion.class
+com/stockx/currencytracker/services/CurrencyTrackerService.class
