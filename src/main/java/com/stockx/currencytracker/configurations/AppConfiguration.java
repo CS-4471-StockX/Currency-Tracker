@@ -19,7 +19,7 @@ public class AppConfiguration {
 
     @Bean
     public CurrencyConverterAdapter currencyConverterAdapter(RestTemplate restTemplate) {
-        return new CurrencyConverterAdapter(currconvApiKey, restTemplate);
+        return new CurrencyConverterAdapter(restTemplate, currconvApiKey);
     }
 
 }
